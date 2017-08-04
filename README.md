@@ -31,7 +31,7 @@ CMD ["serve"]
 docker run --privileged \
        -v $(pwd):/go/src/github.com/gomeet/gomeet-<SERVICE_NAME> \
        -v /var/run/docker.sock:/var/run/docker.sock \
-       --rm gomeet/gomeet-builder:0.0.1 \
+       --rm gomeet/gomeet-builder:0.0.3 \
        /go/src/github.com/gomeet/gomeet-<SERVICE_NAME> make <MAKE_DIRECTIVE>
 ```
 
