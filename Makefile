@@ -5,4 +5,4 @@ DOCKER_TAG = $(shell cat VERSION | tr +- __)
 .PHONY: build
 build:
 	@echo "$(NAME)-$(VERSION): build task"
-	docker build -t gomeet/gomeet-builder:$(DOCKER_TAG) .
+	docker build -t gomeet/$(NAME):$(DOCKER_TAG) .
