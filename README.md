@@ -1,6 +1,6 @@
 # gomeet-builder
 
-Base Dockerfile for building gomeet microservices.
+Main Dockerfile for building gomeet microservices.
 
 This image extend `golang:1.8.3-alpine3.6` and add some tools.
 
